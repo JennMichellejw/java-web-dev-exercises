@@ -1,0 +1,13 @@
+Syntax:
+
+public V replace(K key, V value)
+Parameters: This method accepts two parameters:
+
+key: which is the key of the element whose value has to be replaced.
+value: which is the new value which has to be mapped with the provided key.
+Return Value: This method returns the previous value associated with the specified key. If there is no such key mapped, then it returns null, if the implementation supports null value.
+
+Exceptions: This method will throw:
+
+NullPointerException if the specified key or value is null, and this map does not permit null keys or values and
+IllegalArgumentException if some property of the specified key or value prevents it from being stored in this map.
